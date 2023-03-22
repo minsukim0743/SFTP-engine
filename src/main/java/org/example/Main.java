@@ -13,7 +13,7 @@ public class Main {
 
         try {
             // 해당 서버에서 SFTP 연결할 HOSTNAME, IP, PWD, PORT 설정
-            sftp = Sftp.create("192.168.0.121", "root", "fcpass604*", 31622);
+            sftp = Sftp.create("127.0.0.1", "root", "test", 22);
 
             // SFTP 연결
             sftp.connect();
